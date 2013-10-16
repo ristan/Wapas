@@ -1,0 +1,126 @@
+/* Sistema	:	Sistema de Prestacion de Ayudas sociales(SiPAS) - DIDECO - Municipalidad de Colipulli. */
+/* Archivo	:	estilo.css para index.php y otros */
+/* Autor		:	Felipe Morales Palacios */
+/* Viva Chile !!! */
+
+body{															/* Cuerpo de las paginas */
+	background-image		:	url(../img/tapiz.png);
+	font-family				:	Calibri;
+	font-size				:	14px;
+}
+
+h1{															/* Titulo Primero */ 
+	font-family				:	Calibri;
+	font-size				:	20px;
+	color						:	#0040FF;
+	letter-spacing			:	1px;
+}
+
+h2{															/* Titulo Segundo */
+	font-family				:	Calibri;
+	font-size				:	15px;
+	color						:	#0040FF;
+	letter-spacing			:	1px;	
+}
+
+h3{															/* Titulo Tercero */
+	font-family				:	Calibri;
+	font-size				:	12px;
+	color						:	#0040FF;
+	letter-spacing			:	1px;	
+}
+
+h4{															/* Titulo Cuarto */
+	font-family				:	Calibri;
+	font-size				:	16px;
+	color						:	#DF0101;
+}
+
+.uno{															/* Clase para Bordes de Tablas de Titulo, Cabecera y Pie de Pagina */
+	border					:	thin solid #01DF01;	
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;
+}
+
+.dos{															/* Clase para Bienvenido Usuario */
+	font-size				:	12px;
+	color						:	#0040FF;	
+}
+
+.tres{														/* Clase idem a uno pero con fondo blanco */
+	border					:	thin solid #01DF01;	
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;
+	background-color		:	#FFFFFF
+}
+
+.botoncomando{												/* Clase Botones de Comando */
+	border					:	thin solid blue;
+	background-color		:	#FAFAFA;
+	color						:	#0040FF;
+	border					:	thin solid #0040FF;	
+	width						:	100px; 
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;	
+}
+
+.botoncomando:hover{										/* Clase Formato del Boton Comando Inverso */
+	border					:	thin solid white;
+	background-color		:	#0040FF;
+	color						:	#FAFAFA;
+	border					:	thin solid white;
+	width						:	100px;		
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;	
+}
+
+.botonmenu{													/* Clase Botones de Menu */
+	background-color		:	#FAFAFA;
+	color						:	#0040FF;
+}
+
+.botonmenu:hover{											/* Clase Formato del Boton Menu Inverso */
+	background-color		:	#0040FF;
+	color						:	#FAFAFA;
+}
+
+.alerta{														/* Mensaje de alerta para datos faltantes */
+	font-size				:	20px;
+	color						:	#FF0000;
+}
+
+#menuprincipal{											/* Formato Menu Principal */
+	list-style				:	none;
+	width						:	1024px;
+	margin					:	0;
+	padding					:	0;
+}
+
+#menuprincipal li{										/* Formato de la Linea de Menu de Sistema */
+	float						:	left;
+	border					:	solid;
+	border-color			:	#CCCCCC;
+	border					:	thin solid #CCCCCC;	
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;
+}
+
+#menuprincipal li a{										/* Formato del Boton de Menu de Sistema */
+	border-color			:	#333333;
+	display					:	block;
+	width						:	96px;					/* cambia el tamaño del cuadro del menu */
+	padding					:	1px;
+	text-decoration		:	none;
+	text-align				:	center;
+	font-size				:	12px;
+	color						:	#FFFFFF; 
+	background-color		:	#0000FF;
+	border					:	thin solid #CCCCCC;	
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;	
+}
+
+#menuprincipal li a:hover{								/* Formato del Boton De Menu de Sistema Inverso */
+	color						:	#0000FF;
+	background-color		:	#FFFFFF; 
+}
